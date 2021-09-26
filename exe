@@ -1,0 +1,113 @@
+#Denzel
+//
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num, remain;
+    cout << "Plese Enter a Number: ";
+    cin >> num;
+    remain = num % 2;
+    cout << "  " << endl;
+    if (remain == 0) {
+        cout << num << " is an Even Number";
+    }
+    else {
+        cout << num << "is a odd Number";
+
+    }
+
+
+    return 0;
+}
+
+//number checker
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"enter a number:  ";
+    cin>>a;
+     
+    if(a>0){
+    cout<<"positive";}
+    
+    else if(a<0){
+    cout<<"negative";}
+    
+    else{
+    cout<<"zero";}
+    
+    return 0;
+}
+
+//profit or loss
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float price, sales, Profit, loss;
+
+    cout << "Enter the purchase price: \n";
+    cin >> sales;
+    cout << "Enter the selling price: \n";
+    cin >> price;
+    if (price > sales)
+
+    {
+        Profit = price - sales;
+        cout << "Profit of:\n" << Profit << "dirhams";
+    }
+    else
+    {
+        loss = sales - price;
+        cout << "loss of\n" << loss << "dirhams";
+    }
+    return 0;
+    }
+    
+    //name that shape
+    #include <iostream>;
+using namespace std;
+int main() {
+
+	int a;
+
+	cout << "Enter the number of sides: " << endl;
+	cin >> a;
+	cout << " " << endl;
+
+	switch (a) {
+	case 3:
+		cout << "triangle" <<endl;
+			break;
+	case 4:
+		cout << "quadrilateral" <<endl;
+			break;
+	case 5:
+		cout << "pentagon" << endl;
+		break;
+	case 6:
+		cout << "hexagon" << endl;
+		break;
+	case 7:
+		cout << "heptagon" << endl;
+		break;
+	case 8:
+		cout << "octagon" << endl;
+		break;
+	case 9:
+		cout << "nonagon" << endl;
+		break;
+	case 10:
+		cout << "decagon" << endl;
+		break;
+	default:
+		cout << "invalid" << endl;
+	}
+	cin.get();
+	return 0;
+}
